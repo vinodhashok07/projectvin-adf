@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "projectvin-dev-adf"
+		},
+		"LS_AzureBlobStorage_Dev_properties_typeProperties_connectionString_secretName": {
+			"value": "dev-sa-access"
+		},
+		"LS_AzureKeyVault_Dev_properties_typeProperties_baseUrl": {
+			"value": "https://projectvin-dev-kv.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
